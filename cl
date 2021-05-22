@@ -5,191 +5,649 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |25.90Mb, server: 104.19.45.116, port: 443, type: vmess, uuid: dbb1253f-c663-42b0-a3bf-ceae0e8d0e46, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ceae0e8d0e46, ws-headers: {Host: 35044ac9a120f4dd5.spbohk.com}}
-  - {name: "|35.98Mb", server: 109.166.38.103, port: 29855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 109.166.38.103}}
-  - {name: Relay_ |43.71Mb, server: auto.freev2.top, port: 19698, type: vmess, uuid: 651b3276-dc60-458f-9934-2882523b4a53, alterId: 1, cipher: auto, tls: false}
-  - {name: Relay_ |24.24Mb, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: "|29.77Mb", server: 3.35.175.255, port: 52025, type: vmess, uuid: 7acbe87b-a979-444c-bf14-9e866473f883, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 3.35.175.255}}
-  - {name: Relay_ | 2.90Mb, server: ae8a652cccc096e3f.awsglobalaccelerator.com, port: 29312, type: vmess, uuid: a326bf45-1c53-4243-e03e-18c39faa330a, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_ |20.86Mb, server: 137.116.162.112, port: 2018, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: Relay_ |25.19Mb, server: 137.116.162.112, port: 2019, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: Relay_ |64.76Mb, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
-  - {name: "|22.92Mb", server: 185.200.191.27, port: 48966, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 185.200.191.27}}
-  - {name: Relay_ |15.13Mb, server: 104.19.192.19, port: 443, type: vmess, uuid: 62af99c3-0874-40a8-bb0c-15708625d2bf, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /iue/l2vesav, ws-headers: {Host: cf.souji.ga}}
-  - {name: Relay_ | 9.87Mb, server: gefree1.free3333.xyz, port: 443, type: vmess, uuid: 6b7c64ca-4b77-4796-bdc6-254ed52a4c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: gefree1.free3333.xyz}}
-  - {name: "|33.02Mb", server: 5.183.102.142, port: 14420, type: vmess, uuid: 9984501d-e80a-4144-c6bd-2503fb49872d, alterId: 64, cipher: auto, tls: false}
-  - {name: "|35.58Mb", server: 5.183.103.196, port: 57801, type: vmess, uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_ |24.34Mb, server: abc.2589974338.tk, port: 443, type: vmess, uuid: e287b3c6-1cbc-43c7-85ea-65ffe2c80878, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /296b584da/, ws-headers: {Host: abc.2589974338.tk}}
-  - {name: Relay_ | 9.71Mb, server: www.digitalocean.com, port: 443, type: vmess, uuid: 6b7c64ca-4b77-4796-bdc6-254ed52a4c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: gefree1.free3333.xyz}}
-  - {name: Relay_ | 5.49Mb, server: 52.80.138.63, port: 49855, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.80.138.63}}
-  - {name: "| 7.41Mb", server: 13.245.16.126, port: 20404, type: vmess, uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, alterId: 64, cipher: auto, tls: false}
-  - {name: "|10.30Mb", server: 13.245.13.47, port: 45623, type: vmess, uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf, alterId: 64, cipher: auto, tls: false}
-  - {name: "|19.33Mb", server: 20.74.131.217, port: 13547, type: vmess, uuid: 52f0fa52-173c-41cb-97b8-bd2ea10217cf, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_ |15.59Mb, server: 137.116.162.112, port: 2020, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🏁ZZ_1911, server: 23.99.112.125, port: 39005, type: vmess, uuid: 55ec188d-a407-3283-a08d-6b8246df20ae, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 23.99.112.125}}
+  - {name: 🇯🇵 JP_2330, server: 18.177.140.83, port: 28483, type: vmess, uuid: 1add6694-b56f-4162-b7da-d899612b0608, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.177.140.83}}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1913, server: 23.99.112.125, port: 39009, type: vmess, uuid: 55ec188d-a407-3283-a08d-6b8246df20ae, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 23.99.112.125}}
+  - {name: 🇩🇪 Relay_-🇩🇪DE_198, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2310, server: auto.freev2.top, port: 55251, type: vmess, uuid: 270b97bd-3a59-4936-87f8-6c5b76cc8dcb, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1914, server: 23.99.112.125, port: 39021, type: vmess, uuid: 55ec188d-a407-3283-a08d-6b8246df20ae, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 23.99.112.125}}
+  - {name: 🇳🇱 NL_2645, server: 5.180.79.11, port: 27449, type: vmess, uuid: 0cd64346-cd8d-4306-c256-05e12c76d5a5, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US_4315, server: 20.74.131.217, port: 13547, type: vmess, uuid: 52f0fa52-173c-41cb-97b8-bd2ea10217cf, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1917, server: 23.99.112.125, port: 39023, type: vmess, uuid: 55ec188d-a407-3283-a08d-6b8246df20ae, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: 23.99.112.125}}
+  - {name: 🇷🇺 RU_3056, server: 185.195.26.193, port: 22526, type: vmess, uuid: 99ab7ff1-147d-341f-b422-010392b589a6, alterId: 16, cipher: auto, tls: false}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_30, server: 139.226.50.32, port: 10005, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇸 Pool_🇺🇸US_116, server: 45.58.145.209, port: 443, type: vmess, uuid: 5f3d2caf-55b6-4af2-9183-329602a3fee0, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.12387703.xyz}}
+  - {name: GB_37, server: 5.183.103.196, port: 57801, type: vmess, uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇿🇦 ZA_121, server: 13.245.16.126, port: 20404, type: vmess, uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP_60, server: 3.112.230.214, port: 8000, type: vmess, uuid: a326bf45-1c53-4243-e03e-18c39faa330a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_26, server: 139.226.50.32, port: 10004, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇷🇺 RU_85, server: 194.87.70.252, port: 30982, type: vmess, uuid: c3e4d8ea-846f-4f39-b338-01a9877218e5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_115, server: 23.224.8.82, port: 443, type: vmess, uuid: 74e4c336-aaa3-4c41-9a0d-bea94e71833b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.78651322.xyz}}
+  - {name: 🇿🇦 ZA_122, server: 13.245.13.47, port: 45623, type: vmess, uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_29, server: 139.226.50.32, port: 10003, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 Relay_🇺🇸US-🇯🇵JP_102, server: ae8a652cccc096e3f.awsglobalaccelerator.com, port: 29312, type: vmess, uuid: a326bf45-1c53-4243-e03e-18c39faa330a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_27, server: 139.226.50.32, port: 10001, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false}
+  - {name: GB_38, server: 5.183.102.142, port: 14420, type: vmess, uuid: 9984501d-e80a-4144-c6bd-2503fb49872d, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 Relay_🇺🇸US-🇭🇰HK_100, server: 104.19.45.116, port: 443, type: vmess, uuid: dbb1253f-c663-42b0-a3bf-ceae0e8d0e46, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ceae0e8d0e46, ws-headers: {Host: 35044ac9a120f4dd5.spbohk.com}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_107, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_117, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: GB_39, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 2, server: 139.226.50.32, port: 10005, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾 2, server: 139.226.50.32, port: 10004, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本, server: 139.226.50.32, port: 10001, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_414 |10.54Mb, server: 139.226.50.32, port: 10003, type: vmess, uuid: 2b162f57-f45f-46d0-a4d0-085fc2c9721a, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国, server: 51.195.112.160, port: 443, type: vmess, uuid: 6a7e3fcf-6256-4eaa-9d37-07886949b94f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.969983021.xyz}}
+  - {name: 146.59.0.168:809, server: 146.59.0.168, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 146.59.0.168:801, server: 146.59.0.168, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: abc.2589974338.tk, port: 443, type: vmess, uuid: e287b3c6-1cbc-43c7-85ea-65ffe2c80878, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /296b584da/, ws-headers: {Host: abc.2589974338.tk}}
+  - {name: Relay_ |41.59Mb, server: www.digitalocean.com, port: 443, type: vmess, uuid: 6b7c64ca-4b77-4796-bdc6-254ed52a4c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: gefree1.free3333.xyz}}
+  - {name: Relay_ |42.63Mb, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: Relay_ |43.07Mb, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 德国 2, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国, server: 154.84.1.151, port: 443, type: vmess, uuid: fabb69a2-3fab-42ab-ab3f-048d51c8d010, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.58613279.xyz}}
+  - {name: 🇺🇸 美国 2, server: 154.84.1.150, port: 443, type: vmess, uuid: b6a1fc1e-5e56-47d5-b1af-76a3d81def37, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.24826945.xyz}}
+  - {name: 🇳🇱 荷兰, server: 46.182.107.26, port: 443, type: vmess, uuid: ed430006-3d07-4116-902b-649d3492c01a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.59299999.xyz}}
+  - {name: 🇺🇸 美国 3, server: 154.84.1.181, port: 443, type: vmess, uuid: 2a3b4685-7deb-4388-a96a-fac9ee08ad63, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.57741322.xyz}}
+  - {name: 🇳🇱 荷兰 2, server: 154.84.1.23, port: 443, type: vmess, uuid: f3875942-e838-4d0a-82fd-59e785941b63, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11314085.xyz}}
+  - {name: 🇳🇱 荷兰 3, server: 46.182.107.5, port: 443, type: vmess, uuid: 9fb4ba62-3b1c-4987-8762-d1e4d346afd7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.16162053.xyz}}
+  - {name: 15.237.126.197:800, server: 15.237.126.197, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 138.199.42.151:49396, server: 138.199.42.151, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 美国 4, server: 45.58.149.15, port: 443, type: vmess, uuid: f72de1a6-b823-4951-bf6b-8f5f2cfba0a3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.86214129.xyz}}
+  - {name: 135.125.248.215:811, server: 135.125.248.215, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: "|39.88Mb", server: 5.183.103.196, port: 57801, type: vmess, uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc, alterId: 64, cipher: auto, tls: false}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: gefree1.free3333.xyz, port: 443, type: vmess, uuid: 6b7c64ca-4b77-4796-bdc6-254ed52a4c53, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: gefree1.free3333.xyz}}
+  - {name: 🇳🇱 荷兰 4, server: 46.182.107.29, port: 443, type: vmess, uuid: 5e2b3301-d09b-401a-b465-94a8e0a68a79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.73783566.xyz}}
+  - {name: 🇳🇱 荷兰 5, server: 154.84.1.180, port: 443, type: vmess, uuid: 0f55100c-8abb-4542-9e5a-ff7d8120e43d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.29899295.xyz}}
+  - {name: 🇳🇱 荷兰 6, server: 46.182.107.11, port: 443, type: vmess, uuid: b438dc80-6336-4717-a770-7cb2068971aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.46352799.xyz}}
+  - {name: 🇳🇱 荷兰 7, server: 154.84.1.33, port: 443, type: vmess, uuid: 0165667d-54f2-479e-9bd7-e5548edc3194, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.44186580.xyz}}
+  - {name: 🇳🇱 荷兰 8, server: 154.84.1.34, port: 443, type: vmess, uuid: f5713c1a-eeec-4f31-a51c-acb2b879144c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17888690.xyz}}
+  - {name: 🇳🇱 荷兰 9, server: 154.84.1.37, port: 443, type: vmess, uuid: bad6de34-e23e-4a56-a162-f9b524447cc2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.59438416.xyz}}
+  - {name: 🇺🇸 美国 5, server: 46.182.107.17, port: 443, type: vmess, uuid: 45ef0cc8-1a31-453d-9b4c-f66eaa6daa86, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.44985428.xyz}}
+  - {name: 🇺🇸 美国 6, server: 46.182.107.14, port: 443, type: vmess, uuid: 046e37b4-962a-4dfd-a372-c52f8f90edc6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.98868925.xyz}}
+  - {name: 🇳🇱 荷兰 10, server: 154.84.1.163, port: 443, type: vmess, uuid: c0b06dcf-ab46-454f-b173-4afadd9f56c8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.53151238.xyz}}
+  - {name: 🇳🇱 荷兰 11, server: 154.84.1.238, port: 443, type: vmess, uuid: 5599a700-4f47-4673-b2c8-a4d9460ab0be, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.84849018.xyz}}
+  - {name: 🇺🇸 美国 7, server: 154.84.1.142, port: 443, type: vmess, uuid: ab594acc-2624-472f-a7a1-b7fe284776e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.40983279.xyz}}
+  - {name: 198.147.22.87:40093, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇩🇪 德国 4, server: 51.89.115.72, port: 443, type: vmess, uuid: 6a7e3fcf-6256-4eaa-9d37-07886949b94f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.969983021.xyz}}
+  - {name: 🇳🇱 荷兰 12, server: 154.84.1.149, port: 443, type: vmess, uuid: 1655351f-8d5f-4e7a-9a86-b5bc4ed7da92, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.41330606.xyz}}
+  - {name: 198.147.22.87:31757, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 198.147.22.87:33998, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 198.147.22.87:39772, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 15.237.126.197:812, server: 15.237.126.197, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦 加拿大, server: t5.ssrsub.one, port: 8443, type: trojan, password: BzSTIgwh, sni: t5.ssrsub.one}
+  - {name: 🇺🇸 美国 12, server: 154.84.1.35, port: 443, type: vmess, uuid: 0415746c-4d6b-49fb-9a8a-e74ad6172d3d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.00722542.xyz}}
+  - {name: 🇨🇦 加拿大 2, server: t1.ssrsub.one, port: 443, type: trojan, password: oniTKdGW, sni: t1.ssrsub.one}
+  - {name: 🇺🇸 美国 13, server: 23.224.69.3, port: 443, type: vmess, uuid: 538d3b28-f335-4a0a-bda8-b5065fb1bfb7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.39930935.xyz}}
+  - {name: 🇺🇸 美国 14, server: 23.224.69.18, port: 443, type: vmess, uuid: 76003e21-7cce-430a-a823-428a7f012aa2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.76126449.xyz}}
+  - {name: 🇺🇸 美国 15, server: 23.225.9.252, port: 443, type: vmess, uuid: 2dd19ba3-f6d8-4562-8153-03ea94335111, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.38559541.xyz}}
+  - {name: 🇺🇸 美国 16, server: 23.225.98.115, port: 443, type: vmess, uuid: cd04efa2-b14c-4de3-adde-a23e4d7a60dc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.46815547.xyz}}
+  - {name: 🇺🇸 美国 17, server: 23.225.57.203, port: 443, type: vmess, uuid: 811782d9-6cdb-45dd-9448-1ec4c47ad564, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.34428394.xyz}}
+  - {name: 🇭🇰 香港(欢迎订阅Youtube破解资源君), server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: "|49.73Mb", server: 5.183.102.142, port: 14420, type: vmess, uuid: 9984501d-e80a-4144-c6bd-2503fb49872d, alterId: 64, cipher: auto, tls: false}
+  - {name: "|23.91Mb", server: 13.245.13.47, port: 45623, type: vmess, uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf, alterId: 64, cipher: auto, tls: false}
+  - {name: "|23.93Mb", server: 13.245.16.126, port: 20404, type: vmess, uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 18, server: 154.84.1.31, port: 443, type: vmess, uuid: 82e9f17c-cac2-45da-9c07-2967980a32a6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.00225384.xyz}}
+  - {name: 🇨🇦 加拿大 3, server: t2.ssrsub.one, port: 8443, type: trojan, password: N8l9RGMa, sni: t2.ssrsub.one}
+  - {name: 185.124.240.159:38742, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 154.127.50.138:31572, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇳🇱 荷兰 13, server: 154.84.1.127, port: 443, type: vmess, uuid: 01f3e51f-4c86-48fe-9a03-202e93a46969, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.63681459.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |25.90Mb
-      - "|35.98Mb"
-      - Relay_ |43.71Mb
-      - Relay_ |24.24Mb
-      - "|29.77Mb"
-      - Relay_ | 2.90Mb
-      - Relay_ |20.86Mb
-      - Relay_ |25.19Mb
-      - Relay_ |64.76Mb
-      - "|22.92Mb"
-      - Relay_ |15.13Mb
-      - Relay_ | 9.87Mb
-      - "|33.02Mb"
-      - "|35.58Mb"
-      - Relay_ |24.34Mb
-      - Relay_ | 9.71Mb
-      - Relay_ | 5.49Mb
-      - "| 7.41Mb"
-      - "|10.30Mb"
-      - "|19.33Mb"
-      - Relay_ |15.59Mb
+      - 🇭🇰 Relay_🇭🇰HK-🏁ZZ_1911
+      - 🇯🇵 JP_2330
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1913
+      - 🇩🇪 Relay_-🇩🇪DE_198
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2310
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1914
+      - 🇳🇱 NL_2645
+      - 🇺🇸 US_4315
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1917
+      - 🇷🇺 RU_3056
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_30
+      - 🇺🇸 Pool_🇺🇸US_116
+      - GB_37
+      - 🇿🇦 ZA_121
+      - 🇯🇵 JP_60
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_26
+      - 🇷🇺 RU_85
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_115
+      - 🇿🇦 ZA_122
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_29
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_102
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_27
+      - GB_38
+      - 🇭🇰 Relay_🇺🇸US-🇭🇰HK_100
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_107
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_117
+      - GB_39
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_414 |10.54Mb
+      - 🇩🇪 德国
+      - 146.59.0.168:809
+      - 146.59.0.168:801
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - Relay_ |41.59Mb
+      - Relay_ |42.63Mb
+      - Relay_ |43.07Mb
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 3
+      - 🇳🇱 荷兰 2
+      - 🇳🇱 荷兰 3
+      - 15.237.126.197:800
+      - 138.199.42.151:49396
+      - 🇺🇸 美国 4
+      - 135.125.248.215:811
+      - "|39.88Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇳🇱 荷兰 10
+      - 🇳🇱 荷兰 11
+      - 🇺🇸 美国 7
+      - 198.147.22.87:40093
+      - 🇩🇪 德国 4
+      - 🇳🇱 荷兰 12
+      - 198.147.22.87:31757
+      - 198.147.22.87:33998
+      - 198.147.22.87:39772
+      - 15.237.126.197:812
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 12
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - "|49.73Mb"
+      - "|23.91Mb"
+      - "|23.93Mb"
+      - 🇺🇸 美国 18
+      - 🇨🇦 加拿大 3
+      - 185.124.240.159:38742
+      - 154.127.50.138:31572
+      - 🇳🇱 荷兰 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |25.90Mb
-      - "|35.98Mb"
-      - Relay_ |43.71Mb
-      - Relay_ |24.24Mb
-      - "|29.77Mb"
-      - Relay_ | 2.90Mb
-      - Relay_ |20.86Mb
-      - Relay_ |25.19Mb
-      - Relay_ |64.76Mb
-      - "|22.92Mb"
-      - Relay_ |15.13Mb
-      - Relay_ | 9.87Mb
-      - "|33.02Mb"
-      - "|35.58Mb"
-      - Relay_ |24.34Mb
-      - Relay_ | 9.71Mb
-      - Relay_ | 5.49Mb
-      - "| 7.41Mb"
-      - "|10.30Mb"
-      - "|19.33Mb"
-      - Relay_ |15.59Mb
+      - 🇭🇰 Relay_🇭🇰HK-🏁ZZ_1911
+      - 🇯🇵 JP_2330
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1913
+      - 🇩🇪 Relay_-🇩🇪DE_198
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2310
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1914
+      - 🇳🇱 NL_2645
+      - 🇺🇸 US_4315
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1917
+      - 🇷🇺 RU_3056
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_30
+      - 🇺🇸 Pool_🇺🇸US_116
+      - GB_37
+      - 🇿🇦 ZA_121
+      - 🇯🇵 JP_60
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_26
+      - 🇷🇺 RU_85
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_115
+      - 🇿🇦 ZA_122
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_29
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_102
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_27
+      - GB_38
+      - 🇭🇰 Relay_🇺🇸US-🇭🇰HK_100
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_107
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_117
+      - GB_39
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_414 |10.54Mb
+      - 🇩🇪 德国
+      - 146.59.0.168:809
+      - 146.59.0.168:801
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - Relay_ |41.59Mb
+      - Relay_ |42.63Mb
+      - Relay_ |43.07Mb
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 3
+      - 🇳🇱 荷兰 2
+      - 🇳🇱 荷兰 3
+      - 15.237.126.197:800
+      - 138.199.42.151:49396
+      - 🇺🇸 美国 4
+      - 135.125.248.215:811
+      - "|39.88Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇳🇱 荷兰 10
+      - 🇳🇱 荷兰 11
+      - 🇺🇸 美国 7
+      - 198.147.22.87:40093
+      - 🇩🇪 德国 4
+      - 🇳🇱 荷兰 12
+      - 198.147.22.87:31757
+      - 198.147.22.87:33998
+      - 198.147.22.87:39772
+      - 15.237.126.197:812
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 12
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - "|49.73Mb"
+      - "|23.91Mb"
+      - "|23.93Mb"
+      - 🇺🇸 美国 18
+      - 🇨🇦 加拿大 3
+      - 185.124.240.159:38742
+      - 154.127.50.138:31572
+      - 🇳🇱 荷兰 13
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |25.90Mb
-      - "|35.98Mb"
-      - Relay_ |43.71Mb
-      - Relay_ |24.24Mb
-      - "|29.77Mb"
-      - Relay_ | 2.90Mb
-      - Relay_ |20.86Mb
-      - Relay_ |25.19Mb
-      - Relay_ |64.76Mb
-      - "|22.92Mb"
-      - Relay_ |15.13Mb
-      - Relay_ | 9.87Mb
-      - "|33.02Mb"
-      - "|35.58Mb"
-      - Relay_ |24.34Mb
-      - Relay_ | 9.71Mb
-      - Relay_ | 5.49Mb
-      - "| 7.41Mb"
-      - "|10.30Mb"
-      - "|19.33Mb"
-      - Relay_ |15.59Mb
+      - 🇭🇰 Relay_🇭🇰HK-🏁ZZ_1911
+      - 🇯🇵 JP_2330
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1913
+      - 🇩🇪 Relay_-🇩🇪DE_198
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2310
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1914
+      - 🇳🇱 NL_2645
+      - 🇺🇸 US_4315
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1917
+      - 🇷🇺 RU_3056
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_30
+      - 🇺🇸 Pool_🇺🇸US_116
+      - GB_37
+      - 🇿🇦 ZA_121
+      - 🇯🇵 JP_60
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_26
+      - 🇷🇺 RU_85
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_115
+      - 🇿🇦 ZA_122
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_29
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_102
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_27
+      - GB_38
+      - 🇭🇰 Relay_🇺🇸US-🇭🇰HK_100
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_107
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_117
+      - GB_39
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_414 |10.54Mb
+      - 🇩🇪 德国
+      - 146.59.0.168:809
+      - 146.59.0.168:801
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - Relay_ |41.59Mb
+      - Relay_ |42.63Mb
+      - Relay_ |43.07Mb
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 3
+      - 🇳🇱 荷兰 2
+      - 🇳🇱 荷兰 3
+      - 15.237.126.197:800
+      - 138.199.42.151:49396
+      - 🇺🇸 美国 4
+      - 135.125.248.215:811
+      - "|39.88Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇳🇱 荷兰 10
+      - 🇳🇱 荷兰 11
+      - 🇺🇸 美国 7
+      - 198.147.22.87:40093
+      - 🇩🇪 德国 4
+      - 🇳🇱 荷兰 12
+      - 198.147.22.87:31757
+      - 198.147.22.87:33998
+      - 198.147.22.87:39772
+      - 15.237.126.197:812
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 12
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - "|49.73Mb"
+      - "|23.91Mb"
+      - "|23.93Mb"
+      - 🇺🇸 美国 18
+      - 🇨🇦 加拿大 3
+      - 185.124.240.159:38742
+      - 154.127.50.138:31572
+      - 🇳🇱 荷兰 13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |25.90Mb
-      - "|35.98Mb"
-      - Relay_ |43.71Mb
-      - Relay_ |24.24Mb
-      - "|29.77Mb"
-      - Relay_ | 2.90Mb
-      - Relay_ |20.86Mb
-      - Relay_ |25.19Mb
-      - Relay_ |64.76Mb
-      - "|22.92Mb"
-      - Relay_ |15.13Mb
-      - Relay_ | 9.87Mb
-      - "|33.02Mb"
-      - "|35.58Mb"
-      - Relay_ |24.34Mb
-      - Relay_ | 9.71Mb
-      - Relay_ | 5.49Mb
-      - "| 7.41Mb"
-      - "|10.30Mb"
-      - "|19.33Mb"
-      - Relay_ |15.59Mb
+      - 🇭🇰 Relay_🇭🇰HK-🏁ZZ_1911
+      - 🇯🇵 JP_2330
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1913
+      - 🇩🇪 Relay_-🇩🇪DE_198
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2310
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1914
+      - 🇳🇱 NL_2645
+      - 🇺🇸 US_4315
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1917
+      - 🇷🇺 RU_3056
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_30
+      - 🇺🇸 Pool_🇺🇸US_116
+      - GB_37
+      - 🇿🇦 ZA_121
+      - 🇯🇵 JP_60
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_26
+      - 🇷🇺 RU_85
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_115
+      - 🇿🇦 ZA_122
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_29
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_102
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_27
+      - GB_38
+      - 🇭🇰 Relay_🇺🇸US-🇭🇰HK_100
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_107
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_117
+      - GB_39
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_414 |10.54Mb
+      - 🇩🇪 德国
+      - 146.59.0.168:809
+      - 146.59.0.168:801
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - Relay_ |41.59Mb
+      - Relay_ |42.63Mb
+      - Relay_ |43.07Mb
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 3
+      - 🇳🇱 荷兰 2
+      - 🇳🇱 荷兰 3
+      - 15.237.126.197:800
+      - 138.199.42.151:49396
+      - 🇺🇸 美国 4
+      - 135.125.248.215:811
+      - "|39.88Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇳🇱 荷兰 10
+      - 🇳🇱 荷兰 11
+      - 🇺🇸 美国 7
+      - 198.147.22.87:40093
+      - 🇩🇪 德国 4
+      - 🇳🇱 荷兰 12
+      - 198.147.22.87:31757
+      - 198.147.22.87:33998
+      - 198.147.22.87:39772
+      - 15.237.126.197:812
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 12
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - "|49.73Mb"
+      - "|23.91Mb"
+      - "|23.93Mb"
+      - 🇺🇸 美国 18
+      - 🇨🇦 加拿大 3
+      - 185.124.240.159:38742
+      - 154.127.50.138:31572
+      - 🇳🇱 荷兰 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_ |25.90Mb
-      - "|35.98Mb"
-      - Relay_ |43.71Mb
-      - Relay_ |24.24Mb
-      - "|29.77Mb"
-      - Relay_ | 2.90Mb
-      - Relay_ |20.86Mb
-      - Relay_ |25.19Mb
-      - Relay_ |64.76Mb
-      - "|22.92Mb"
-      - Relay_ |15.13Mb
-      - Relay_ | 9.87Mb
-      - "|33.02Mb"
-      - "|35.58Mb"
-      - Relay_ |24.34Mb
-      - Relay_ | 9.71Mb
-      - Relay_ | 5.49Mb
-      - "| 7.41Mb"
-      - "|10.30Mb"
-      - "|19.33Mb"
-      - Relay_ |15.59Mb
+      - 🇭🇰 Relay_🇭🇰HK-🏁ZZ_1911
+      - 🇯🇵 JP_2330
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1913
+      - 🇩🇪 Relay_-🇩🇪DE_198
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2310
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1914
+      - 🇳🇱 NL_2645
+      - 🇺🇸 US_4315
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1917
+      - 🇷🇺 RU_3056
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_30
+      - 🇺🇸 Pool_🇺🇸US_116
+      - GB_37
+      - 🇿🇦 ZA_121
+      - 🇯🇵 JP_60
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_26
+      - 🇷🇺 RU_85
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_115
+      - 🇿🇦 ZA_122
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_29
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_102
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_27
+      - GB_38
+      - 🇭🇰 Relay_🇺🇸US-🇭🇰HK_100
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_107
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_117
+      - GB_39
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_414 |10.54Mb
+      - 🇩🇪 德国
+      - 146.59.0.168:809
+      - 146.59.0.168:801
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - Relay_ |41.59Mb
+      - Relay_ |42.63Mb
+      - Relay_ |43.07Mb
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 3
+      - 🇳🇱 荷兰 2
+      - 🇳🇱 荷兰 3
+      - 15.237.126.197:800
+      - 138.199.42.151:49396
+      - 🇺🇸 美国 4
+      - 135.125.248.215:811
+      - "|39.88Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇳🇱 荷兰 10
+      - 🇳🇱 荷兰 11
+      - 🇺🇸 美国 7
+      - 198.147.22.87:40093
+      - 🇩🇪 德国 4
+      - 🇳🇱 荷兰 12
+      - 198.147.22.87:31757
+      - 198.147.22.87:33998
+      - 198.147.22.87:39772
+      - 15.237.126.197:812
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 12
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - "|49.73Mb"
+      - "|23.91Mb"
+      - "|23.93Mb"
+      - 🇺🇸 美国 18
+      - 🇨🇦 加拿大 3
+      - 185.124.240.159:38742
+      - 154.127.50.138:31572
+      - 🇳🇱 荷兰 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |25.90Mb
-      - "|35.98Mb"
-      - Relay_ |43.71Mb
-      - Relay_ |24.24Mb
-      - "|29.77Mb"
-      - Relay_ | 2.90Mb
-      - Relay_ |20.86Mb
-      - Relay_ |25.19Mb
-      - Relay_ |64.76Mb
-      - "|22.92Mb"
-      - Relay_ |15.13Mb
-      - Relay_ | 9.87Mb
-      - "|33.02Mb"
-      - "|35.58Mb"
-      - Relay_ |24.34Mb
-      - Relay_ | 9.71Mb
-      - Relay_ | 5.49Mb
-      - "| 7.41Mb"
-      - "|10.30Mb"
-      - "|19.33Mb"
-      - Relay_ |15.59Mb
+      - 🇭🇰 Relay_🇭🇰HK-🏁ZZ_1911
+      - 🇯🇵 JP_2330
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1913
+      - 🇩🇪 Relay_-🇩🇪DE_198
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2310
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1914
+      - 🇳🇱 NL_2645
+      - 🇺🇸 US_4315
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1917
+      - 🇷🇺 RU_3056
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_30
+      - 🇺🇸 Pool_🇺🇸US_116
+      - GB_37
+      - 🇿🇦 ZA_121
+      - 🇯🇵 JP_60
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_26
+      - 🇷🇺 RU_85
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_115
+      - 🇿🇦 ZA_122
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_29
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_102
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_27
+      - GB_38
+      - 🇭🇰 Relay_🇺🇸US-🇭🇰HK_100
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_107
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_117
+      - GB_39
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_414 |10.54Mb
+      - 🇩🇪 德国
+      - 146.59.0.168:809
+      - 146.59.0.168:801
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - Relay_ |41.59Mb
+      - Relay_ |42.63Mb
+      - Relay_ |43.07Mb
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 3
+      - 🇳🇱 荷兰 2
+      - 🇳🇱 荷兰 3
+      - 15.237.126.197:800
+      - 138.199.42.151:49396
+      - 🇺🇸 美国 4
+      - 135.125.248.215:811
+      - "|39.88Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇳🇱 荷兰 10
+      - 🇳🇱 荷兰 11
+      - 🇺🇸 美国 7
+      - 198.147.22.87:40093
+      - 🇩🇪 德国 4
+      - 🇳🇱 荷兰 12
+      - 198.147.22.87:31757
+      - 198.147.22.87:33998
+      - 198.147.22.87:39772
+      - 15.237.126.197:812
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 12
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - "|49.73Mb"
+      - "|23.91Mb"
+      - "|23.93Mb"
+      - 🇺🇸 美国 18
+      - 🇨🇦 加拿大 3
+      - 185.124.240.159:38742
+      - 154.127.50.138:31572
+      - 🇳🇱 荷兰 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,27 +663,92 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |25.90Mb
-      - "|35.98Mb"
-      - Relay_ |43.71Mb
-      - Relay_ |24.24Mb
-      - "|29.77Mb"
-      - Relay_ | 2.90Mb
-      - Relay_ |20.86Mb
-      - Relay_ |25.19Mb
-      - Relay_ |64.76Mb
-      - "|22.92Mb"
-      - Relay_ |15.13Mb
-      - Relay_ | 9.87Mb
-      - "|33.02Mb"
-      - "|35.58Mb"
-      - Relay_ |24.34Mb
-      - Relay_ | 9.71Mb
-      - Relay_ | 5.49Mb
-      - "| 7.41Mb"
-      - "|10.30Mb"
-      - "|19.33Mb"
-      - Relay_ |15.59Mb
+      - 🇭🇰 Relay_🇭🇰HK-🏁ZZ_1911
+      - 🇯🇵 JP_2330
+      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1913
+      - 🇩🇪 Relay_-🇩🇪DE_198
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_2310
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1914
+      - 🇳🇱 NL_2645
+      - 🇺🇸 US_4315
+      - 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1917
+      - 🇷🇺 RU_3056
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_30
+      - 🇺🇸 Pool_🇺🇸US_116
+      - GB_37
+      - 🇿🇦 ZA_121
+      - 🇯🇵 JP_60
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_26
+      - 🇷🇺 RU_85
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_115
+      - 🇿🇦 ZA_122
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_29
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_102
+      - 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_27
+      - GB_38
+      - 🇭🇰 Relay_🇺🇸US-🇭🇰HK_100
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_107
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_117
+      - GB_39
+      - 🇭🇰 香港 2
+      - 🇨🇳 台湾 2
+      - 🇯🇵 日本
+      - 🇨🇳 Relay_🇨🇳CN-🇨🇳CN_414 |10.54Mb
+      - 🇩🇪 德国
+      - 146.59.0.168:809
+      - 146.59.0.168:801
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - Relay_ |41.59Mb
+      - Relay_ |42.63Mb
+      - Relay_ |43.07Mb
+      - 🇩🇪 德国 2
+      - 🇺🇸 美国
+      - 🇺🇸 美国 2
+      - 🇳🇱 荷兰
+      - 🇺🇸 美国 3
+      - 🇳🇱 荷兰 2
+      - 🇳🇱 荷兰 3
+      - 15.237.126.197:800
+      - 138.199.42.151:49396
+      - 🇺🇸 美国 4
+      - 135.125.248.215:811
+      - "|39.88Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 🇳🇱 荷兰 4
+      - 🇳🇱 荷兰 5
+      - 🇳🇱 荷兰 6
+      - 🇳🇱 荷兰 7
+      - 🇳🇱 荷兰 8
+      - 🇳🇱 荷兰 9
+      - 🇺🇸 美国 5
+      - 🇺🇸 美国 6
+      - 🇳🇱 荷兰 10
+      - 🇳🇱 荷兰 11
+      - 🇺🇸 美国 7
+      - 198.147.22.87:40093
+      - 🇩🇪 德国 4
+      - 🇳🇱 荷兰 12
+      - 198.147.22.87:31757
+      - 198.147.22.87:33998
+      - 198.147.22.87:39772
+      - 15.237.126.197:812
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国 12
+      - 🇨🇦 加拿大 2
+      - 🇺🇸 美国 13
+      - 🇺🇸 美国 14
+      - 🇺🇸 美国 15
+      - 🇺🇸 美国 16
+      - 🇺🇸 美国 17
+      - 🇭🇰 香港(欢迎订阅Youtube破解资源君)
+      - "|49.73Mb"
+      - "|23.91Mb"
+      - "|23.93Mb"
+      - 🇺🇸 美国 18
+      - 🇨🇦 加拿大 3
+      - 185.124.240.159:38742
+      - 154.127.50.138:31572
+      - 🇳🇱 荷兰 13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
